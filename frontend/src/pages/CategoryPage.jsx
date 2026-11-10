@@ -28,7 +28,7 @@ export default function CategoryPage() {
       <div className="mb-6 flex items-center justify-between">
         <h1 className="text-3xl font-bold capitalize">{heading}</h1>
         <select
-          className="rounded-lg border bg-white p-2"
+          className="rounded-lg border bg-green p-2"
           value={sort}
           onChange={(e) => setSort(e.target.value)}
         >
@@ -71,7 +71,7 @@ export default function CategoryPage() {
                   <img
                     src={product.image_url}
                     alt={product.name}
-                    className="mb-3 aspect-square w-full rounded-lg bg-gray-50 object-contain"
+                    className="mb-3 aspect-square w-full rounded-lg bg-violet-50 object-contain"
                   />
                   <h3 className="font-semibold">{product.name}</h3>
                   <p className="mt-2 font-bold">
